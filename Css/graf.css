@@ -1,0 +1,32 @@
+#myChart {
+    max-width: 50vw;
+    max-height: 40vh;
+    margin: 0px;
+}   
+
+#myPieChart {
+    max-width: 50vw;
+    max-height: 40vh;
+    margin: 0 auto;
+    display: block;
+  }
+
+  #myDoughnutChart {
+    max-width: 50vw;
+    max-height: 40vh;
+    margin: 0 auto;
+    display: block;
+}
+
+.white-bgraf {
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    min-height: 500px;
+    margin: 210px 0px;
+    width: 100vw;
+    height: 50vh;
+    transform: skewY(0deg);
+    z-index: -1;
+    margin-left: -0.6%;
+  }
