@@ -2,27 +2,40 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     text-align: center;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Sørger for at hele høyden brukes */
 }
 
 .quiz-container {
-    max-width: 200vw;
-    margin: 0 auto;
-    background-color: #c4d9ee;
+    width: 20vw;
+    min-width: 300px; /* Minimum bredde */
+    max-width: 500px; /* Valgfri maks bredde */
+    background-color:#a65050;
     padding: 2vw;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
-    margin-top: 10vh;
-    margin-left: 18vw;
+    text-align: center;
+    min-height: 200px; /* Minimum høyde */
 }
+
 
 h1 {
     margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
 
 .question-container {
     display: none;
     margin-bottom: 2vh;
+    text-align: center;
 }
 
 .answer {

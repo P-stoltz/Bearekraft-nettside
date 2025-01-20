@@ -18,14 +18,14 @@
     display: block;
 }
 
-.white-bgraf {
+.white-bg2 {
     position: absolute;
     top: 0;
     background-color: #fff;
     min-height: 500px;
     margin: 210px 0px;
     width: 100vw;
-    height: 50vh;
+    height: 200vh;
     transform: skewY(0deg);
     z-index: -1;
     margin-left: -0.6%;
